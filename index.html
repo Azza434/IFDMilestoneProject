@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Document</title>
+	<title>Document</title>
 </head>
+
 <body>
-    <!--Header-->
-    <header class="navbar text-uppercase navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">East End Travel</a>
-        </div>
-    </header>
-    <!--Content-->
-    <section>
-        <!--Search Bar-->
-        <div class="col-xs-6 col-sm-8 imput-group" id="locationField">
-            <input class="form-control" id="autocomplete" placeholder="Search For Your Destination" type="text" />
-        </div>
-        <div class="my-5 col-xs-6" id="map"></div>
-        Map/Listings
-    </section>
-    <!--Footer-->
-    <footer class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            <small><a href="https://www.linkedin.com/in/aaron-dwyer-567938195/" target="_blank">Copyright &copy; Aaron Dwyer</a></small>
-        </div>
-    </footer>
-    <script type="text/javascript" async defer
+	<!--Header-->
+	<header class="navbar text-uppercase navbar-dark bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="#">East End Travel</a>
+		</div>
+	</header>
+	<!--Content-->
+	<section class="container">
+		<div class="row my-5">
+			<!--Search Bar-->
+			<div class="col-xs-6 col-sm-8 imput-group" id="locationField">
+				<input class="form-control" id="autocomplete" placeholder="Search For Your Destination" type="text" />
+            </div>
+			<div class="my-5 col-xs-6" id="map"></div>
+			Map/Listings
+		</div>
+	</section>
+	<!--Footer-->
+	<footer class="py-4 bg-dark text-white-50">
+		<div class="container text-center">
+			<small><a href="https://www.linkedin.com/in/aaron-dwyer-567938195/" target="_blank">Copyright &copy; Aaron Dwyer</a></small>
+		</div>
+	</footer>
+	<script type="text/javascript" async defer
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&libraries=places&callback=initMap">
 	</script>
-    <script src="assets/js/script.js"></script>
+	<script src="assets/js/script.js"></script>
 </body>
+
 </html>
