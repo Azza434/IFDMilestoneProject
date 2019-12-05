@@ -75,7 +75,7 @@ These tests included browsers/devices:
 
 ## DEPLOYMENT
 
-I have been commiting every finished functionality, and every bug fix, to GitHub using **[Version Control](https://gitpod.io/workspaces/)**.
+I have been commiting every finished functionality, and every bug fix, to GitHub using **[Gitpod](https://gitpod.io/workspaces/)**.
 
 I have fully deployed this application to GitHub Pages which can be found **[Here](https://azza434.github.io/IFDMilestoneProject/.)**.
 
