@@ -53,3 +53,13 @@
     bottom: 0;
     width: 100%;
 }
+
+@media only screen and (max-width: 1200px) {
+    #locationField {
+        width: 75%;
+    }
+  
+    #map {
+        width: 75%;
+      
+}
