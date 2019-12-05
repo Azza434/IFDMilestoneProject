@@ -8,3 +8,15 @@
       height: 500px;
       margin: 0 auto 0 auto;
 }
+
+#listing {
+      width: 200px;
+      height: 500px;
+      overflow: auto;
+      cursor: pointer;
+      overflow-x: hidden;
+}
+
+#resultsTable {
+      border-collapse: collapse;
+}
