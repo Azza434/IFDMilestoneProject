@@ -21,6 +21,24 @@
       border-collapse: collapse;
 }
 
+#rating {
+      font-size: 13px;
+      font-family: Arial;
+}
+  
+.iw_table_row {
+    height: 18px;
+}
+  
+.iw_attribute_name {
+    font-weight: bold;
+    text-align: right;
+}
+  
+.iw_table_icon {
+    text-align: right;
+}
+
 .reset-button {
       text-align: center;
       margin-top: 15px;
