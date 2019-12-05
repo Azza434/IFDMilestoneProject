@@ -5,6 +5,11 @@
       margin: 0 auto 0 auto;
 }
 
+#autocomplete {
+    width: 100%;
+    text-align: center;
+}
+
 #map {
       width: 80%;
       height: 500px;
