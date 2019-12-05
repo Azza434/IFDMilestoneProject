@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>Document</title>
+	<title>East End Travel</title>
 </head>
-
 <body>
-	<!--Header-->
+    <!--Header-->
 	<header class="navbar text-uppercase navbar-dark bg-dark">
 		<div class="container">
 			<a class="navbar-brand" href="#">East End Travel</a>
 		</div>
 	</header>
-	<!--Content-->
+    <!--Content-->
 	<section class="container">
-		<div class="row my-5">
-			<!--Search Bar-->
-			<div class="col-xs-6 col-sm-8 imput-group" id="locationField">
-				<input class="form-control" id="autocomplete" placeholder="Search For Your Destination" type="text" />
+        <div class="row my-5">
+            <!--Search Bar-->
+            <div class="col-xs-6 col-sm-8 input-group" id="locationField">
+                <input class="form-control" id="autocomplete" placeholder="Search For Your Destination" type="text" />
             </div>
             <!--Map-->
-			<div class="my-5 col-xs-6" id="map"></div>
+            <div class="my-5 col-xs-6" id="map"></div>
             <!--Results-->
-			<div class="col-xs-6 my-5" id="listing">
+            <div class="col-xs-6 my-5" id="listing">
                 <table class="table" id="resultsTable">
                     <tbody id="results"></tbody>
                 </table>
             </div>
-		</div>
+        </div>
         <div class="my-2 reset-button">
             <input class="btn btn-dark" type="reset" value="Reset" onClick="window.location.reload()">
         </div>
@@ -62,9 +60,9 @@
                 </table>
             </div>
         </div>
-	</section>
-	<!--Footer-->
-	<footer class="py-4 bg-dark text-white-50">
+    </section>
+    <!--Footer-->
+	<footer class="py-5 bg-dark text-white-50">
 		<div class="container text-center">
 			<small><a href="https://www.linkedin.com/in/aaron-dwyer-567938195/" target="_blank">Copyright &copy; Aaron Dwyer</a></small>
 		</div>
@@ -74,5 +72,4 @@
 	</script>
 	<script src="assets/js/script.js"></script>
 </body>
-
 </html>
