@@ -87,4 +87,4 @@ The content used in this project has been noted within the Technologies section.
 
 ## ACKNOWLEDGEMENTS
 
-I recieved inspiration for this project from:
+I recieved inspiration for this project from: (Need to complete this part)

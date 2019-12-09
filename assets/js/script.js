@@ -18,8 +18,6 @@ function initMap() {
         content: document.getElementById('info-content')
     });
 
-    // Create the autocomplete object and associate it with the UI input control.
-    // Restrict the search to the default country, and to place type "cities".
     autocomplete = new google.maps.places.Autocomplete(
         /** @type {!HTMLInputElement} */
         (
@@ -193,21 +191,5 @@ function buildIWContent(place) {
     }
     else {
         document.getElementById('iw-rating-row').style.display = 'none';
-    }
-
-    // The regexp isolates the first part of the URL (domain plus subdomain)
-    // to give a short URL for displaying in the info window.
-    if (place.website) {
-        var fullUrl = place.website;
-        var website = hostnameRegexp.exec(place.website);
-        if (website === null) {
-            website = 'http://' + place.website + '/';
-            fullUrl = website;
-        }
-        document.getElementById('iw-website-row').style.display = '';
-        document.getElementById('iw-website').textContent = website;
-    }
-    else {
-        document.getElementById('iw-website-row').style.display = 'none';
     }
 }
