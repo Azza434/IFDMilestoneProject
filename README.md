@@ -87,4 +87,7 @@ The content used in this project has been noted within the Technologies section.
 
 ## ACKNOWLEDGEMENTS
 
-I recieved inspiration for this project from: (Need to complete this part)
+I recieved inspiration for this project from:
+
+I recieved inspiration after talking to another student and he pointed out to me exactly what I needed to do for the project
+as I thought I had to do some big fancy website.

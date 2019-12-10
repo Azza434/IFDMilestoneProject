@@ -19,8 +19,9 @@
 	<section class="container">
         <div class="row my-5">
             <!--Search Bar-->
-            <div class="col-xs-6 col-sm-8 input-group" id="locationField">
-                <input class="form-control" id="autocomplete" placeholder="Search For Your Destination" type="text" />
+            <div class="form-inline md-form form-sm active-cyan-2 mt-2" id="locationField">
+                <input class="form-control form-control-sm mr-3" id="autocomplete" placeholder="Search For Your Destination" type="text" />
+                <i class="fas fa-search" aria-hidden="true"></i>
             </div>
             <!--Map-->
             <div class="my-5 col-xs-6" id="map"></div>
@@ -70,6 +71,7 @@
 	<script type="text/javascript" async defer
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&libraries=places&callback=initMap">
 	</script>
+    <script src="https://kit.fontawesome.com/87d2d52f18.js"></script>
 	<script src="assets/js/script.js"></script>
 </body>
 </html>

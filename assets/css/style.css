@@ -5,12 +5,12 @@ body {
 /*Section*/
 
 #locationField {
-      width: 80%;
+      width: 100%;
       margin: 0 auto 0 auto;
 }
 
 #autocomplete {
-    width: 100%;
+    width: 97%;
     text-align: center;
 }
 
@@ -67,12 +67,31 @@ body {
 
 @media only screen and (max-width: 1200px) {
     #locationField {
-        width: 75%;
+        width: 95%;
     }
   
     #map {
         width: 75%;
-      
+    }
+
+    #autocomplete {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #locationField {
+        width: 95%;
+    }
+  
+    #map {
+        width: 67%;
+    }
+
+    #autocomplete {
+        width: 90%;
+    }
+  
 }
 
 @media only screen and (max-width: 766px) {
@@ -88,5 +107,9 @@ body {
   
     #listing {
         display: none;
+    }
+
+    #autocomplete {
+        width: 90%;
     }
 }
